@@ -20,7 +20,7 @@
 <script>
 	var map;
 	var parks = [
-        {"park":"2980 Donmills Rd","coords":[43.782116,-79.3530542]},
+        {"park":"2980 Donmills Rd West","coords":[43.782116,-79.3530542]},
         {"park":"PALA","coords":[9.7162771,76.6703222]},
         {"park":"London","coords":[55.0913536,-2.1967526]},
         {"park":"Frankfurt","coords":[50.1213479,8.4964813]},
@@ -30,7 +30,7 @@
 
 	function initMap() {
 		map = new google.maps.Map(document.getElementById('map'), {
-			zoom: 4,
+			zoom: 2,
 			center: new google.maps.LatLng(44, -110),
 			mapTypeId: 'terrain'
 		});
